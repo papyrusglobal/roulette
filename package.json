@@ -1,0 +1,22 @@
+{
+    "name": "Roulette",
+    "version": "0.0.1",
+    "scripts": {
+        "compile": "truffle compile && bin/copy-abi.sh",
+        "deploy": "truffle migrate --reset --network local",
+        "deployto": "truffle migrate --reset --network",
+        "solium": "cd contracts/ && solium -d .",
+        "test": "truffle test",
+        "start": "node app.js",
+        "flatten": "truffle-flattener"
+    },
+    "dependencies": {
+        "zeppelin-solidity": "^1.8.0"
+    },
+    "devDependencies": {
+        "truffle": "^4.0.6",
+        "truffle-hdwallet-provider": "^0.0.3",
+        "truffle-flattener": "^1.2.9",
+        "solium": "^1.1.3"
+    }
+}
