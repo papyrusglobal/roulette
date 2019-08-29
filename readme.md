@@ -1,7 +1,7 @@
 Casino roulette game on smart contract and ERC20 token
 ======================================================
 
-Provably fair roulette game implemented as an Ethereum smart contract.
+Provably fair roulette game implemented as an Papyrus smart contract.
 
 Random value is taken from 3 hashes of blocks following the the block where
 the bet was made. Such a value is uniformly distributed, that was tested with
